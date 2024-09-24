@@ -38,9 +38,7 @@ public class CouchdbCdcHandler extends CdcHandler {
 
     @Override
     public Optional<WriteModel<BsonDocument>> handle(SinkDocument doc) {
-        BsonDocument couchdbChangeDocumentValue = doc.getValueDoc().orElseGet(BsonDocument::new);
-
-        LOGGER.info(couchdbChangeDocumentValue.toString());
+        BsonDocument couchdbChangeDocumentValue = OperationHelper.getDocumentValue(doc);
 
         if (couchdbChangeDocumentValue.isEmpty()) return Optional.of(OPERATIONS.get(OperationType.DELETE).perform(doc));
 
