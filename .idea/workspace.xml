@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39fc10b-a3b4-4022-984a-49286554dff0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/kafka/connect/sink/cdc/couchdb/OperationHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mongodb/kafka/connect/sink/cdc/couchdb/CouchdbCdcHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/kafka/connect/sink/cdc/couchdb/CouchdbCdcHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mongodb/kafka/connect/sink/cdc/couchdb/operations/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/kafka/connect/sink/cdc/couchdb/operations/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mongodb/kafka/connect/sink/cdc/couchdb/operations/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mongodb/kafka/connect/sink/cdc/couchdb/operations/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mongodb/kafka/connect/sink/cdc/couchdb/operations/OperationHelper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
